@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    margin-top: 30px;
+}
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    width: 100%;
+    background-color: white;
+    opacity: 0.5;
+    outline: none;
+    padding: 5px 3px;
+}
+
+.registerform{
+    width: 250px;
+    border: 2px solid black;
+    margin: 250px auto 0;
+    background-color: olive;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.registerform h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.registerform button{
+    display: block;
+    width: 150px;
+    margin: 15px auto 0;
+    padding: 5px;
+    background-color: rgb(158, 180, 113);
+    border:solid rgb(106, 128, 62);
+}
+
+.error{
+   border: 2px solid red ;
+}
